@@ -4,7 +4,7 @@ I web scraped 7 current Premier league teams and conducted an exploratory data a
 
     Web Scraping 7 Premier league Squads from the Web 
 
-In the premier_league_squad_web_scraping file, I web scraped information about all players in the football squad for each of the same 7 premier league squad 2023/24, that were chosen to carry out an Exploratory Data Analysis (EDA) on using FIFA 2023 player data. Information I web scraped for each club from the official Premier League site included players first name, last name, position, squad number and nationality. This was achieved in the following steps:
+In the premier_league_squad_web_scraping file, I web scraped information about all players in the football squad for each of the same 7 premier league squads 2023/24, that were chosen to carry out an Exploratory Data Analysis (EDA) on using FIFA 2023 player data. Information I web scraped for each club from the official Premier League site included players first name, last name, position, squad number and nationality. This was achieved in the following steps:
 
 -	I first imported the necessary python libraries including “request” and “BeautifulSoup” for web scraping, “pandas” and "numpy" for data manipulation. 
 
