@@ -1,6 +1,6 @@
 # Premier-League-EDA-using-FIFA-2023-Data
 I web scraped 7 current Premier league teams and conducted an exploratory data analysis (EDA) of the 7 teams using FIFA 2023 player data. 
-<img width="910" alt="Task_6_SQL png’" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/226b542e-1c21-481a-b3e0-3a2043fb005d">
+<img width="400" alt="Task_6_SQL png’" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/226b542e-1c21-481a-b3e0-3a2043fb005d">
 
 
     Web Scraping 7 Premier league Squads from the Web 
