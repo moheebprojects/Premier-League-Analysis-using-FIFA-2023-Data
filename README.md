@@ -138,63 +138,92 @@ The chart displays the average team ratings for each club.
 A dictionary named overall_goalkeeping_abilities is created to store various goalkeeping abilities (Diving, Hand-Game, Foot-Game, Positioning, Reflexes) for each team.
 Data for goalkeeping abilities is collected from different sets of team results (e.g., arsenal_results) based on player positions.
 
-6)	Calculating Average Goalkeeping Abilities:
+<img width="1200" alt="average_goalkeeping_abilities" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/b935738f-9d1d-4bc8-92b7-928aa8412a30">
 
-The script calculates the average goalkeeping abilities for each team by taking the mean of individual abilities.
+<img width="1200" alt="average_goalkeeping_abilities" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/a324d93d-5494-4477-aaf9-6c98237f5ee5">
 
-7)	Creating a Bar Chart for Goalkeeping Abilities:
-
-A grouped bar chart is created to display the average goalkeeping abilities for each team.
-
-8)	Comparing Average Ratings by Position:
-
-The script calculates average overall ratings for different player positions (Goalkeeper, Defender, Midfielder, Forward) for each team.
 
 9)	Creating a Grouped Bar Chart for Average Player Ratings:
 
 A grouped bar chart is created to compare the average overall player ratings for different positions within each team.
 
+<img width="1178" alt="average_overall_player_rating" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/95cf135d-3b0b-44ab-bc2b-a93bbbedfef1">
+
+
 10)	Player Overall Rating Distribution:
 
 The script collects data about player overall ratings from different teams and stores it in a DataFrame. It then creates a histogram to visualize the distribution of player overall ratings across all teams.
+
+<img width="1426" alt="overall_player_rating distribution" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/a3335235-faab-41c0-82e8-e25b29c63afa">
+
 
 11)	Distribution Curve for Defensive Overall Rating:
 
 Similar to the player overall rating distribution, this section focuses on defenders. It collects data on defensive overall ratings and creates a histogram.
 
+<img width="1420" alt="overall_defender_rating_distribution" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/efc2708c-22ae-40d2-916f-77e7bf36c1e8">
+
+
 12)	Distribution Curve for Midfielders Overall Rating:
 
 Similar to the previous section, this part focuses on midfielders' overall ratings and creates a histogram.
+
+<img width="1422" alt="overall_midfielder_rating_distribution" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/8bd58911-1984-41c2-8ac1-5299fa1d8fd8">
+
 
 13)	Distribution Curve for Strikers Overall Rating:
 
 This section, like the previous ones, focuses on strikers' overall ratings and creates a histogram.
 
+<img width="1417" alt="overall_striker_rating_distribution" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/8478e93f-03aa-496f-b746-bea365d28cbd">
+
+
 14)	Comparing Scoring Abilities for Forwards (Strikers):
 
 The script calculates and compares the average scoring abilities (Volleying, Finishing, Heading) of forward players (strikers) for each team.
+
+<img width="1186" alt="average_forward_scoring_ability" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/c2076c7d-4487-45f0-baad-e3d7ef690a2f">
+
 
 15)	Scatter Graph Comparing Player Effectiveness Rating and Overall
 Rating:
 
 The script creates a scatter plot to compare player effectiveness ratings and overall ratings for different teams.
 
+<img width="1398" alt="player_effectiveness_overall_rating" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/fc5e9c6e-7ddf-45c8-904b-b717a7f05155">
+
+
 16)	Scatter Graph Comparing Team Defensive Consciousness and Offensive Position:
 
 Another scatter plot is created to compare player attributes related to offensive positioning and defensive consciousness for different teams.
+
+<img width="1414" alt="defensive_conciousness_offensive_positioning" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/c8e202b5-7f98-4fa8-b707-6ff57ad4ccb9">
+
 
 17)	Correlation Chart Comparing Player Value and Overall Rating:
 
 This section collects data on player values and creates a scatter plot to explore the correlation between player values and overall ratings for each club.
 
+<img width="1413" alt="player_value(euro)_player_rating" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/e8d801a8-0743-4366-b6b8-58d6d9a0c686">
+
+
 18)	Correlation Chart Comparing Player Salary and Overall Rating:
 
 Similar to the previous section, this part focuses on player salaries and explores the correlation between salaries and overall ratings for each club.
+
+<img width="1411" alt="player_salary(euro)_player_rating" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/0556fb1b-9fb4-4423-894b-c22400abab10">
+
 
 19)	Treemap and Histogram for Player Nationalities:
 http://127.0.0.1:53879/ 
 This part creates a treemap visualization to show the distribution of player nationalities within each team.
 Additionally, it creates a histogram to visualize the distribution of nationalities within each team.
+
+<img width="1388" alt="player_nationalities_heatmap" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/22fc0b48-24f0-4824-83bc-d6ab46fafcce">
+
+<img width="1405" alt="club_players_nationality_distribution" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/631263c3-e1e6-4e76-a582-d15abd30ae6d">
+
+
 
 
 
