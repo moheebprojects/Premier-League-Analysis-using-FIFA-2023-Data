@@ -2,7 +2,7 @@
 I web scraped 7 current Premier league teams and conducted an exploratory data analysis (EDA) of the 7 teams using FIFA 2023 player data. 
 
 
-    Web Scraping 7 Premier league Squads from the Web 
+    # Web Scraping 7 Premier league Squads from the Web 
 
 In the data_scraping file, I web scraped information about all players in the football squad for each of the same 7 premier league squads 2023/24, that were chosen to carry out an Exploratory Data Analysis (EDA) on using FIFA 2023 player data. Information I web scraped for each club from the official Premier League site included players first name, last name, position, squad number and nationality. This was achieved in the following steps:
 
@@ -27,7 +27,7 @@ received a valid response.
 -	The file path was specified where the DataFrame will be saved as a CSV file (e.g. ‘arsenal_csv_file_path’ or ‘man_city_csv_file_path’) and the ‘to_csv()’ is used to save the DataFrame to the file. Finally, a print message indicting the CSV file has been created and the steps above where repeated for 7 selected premier league teams. 
 
 
-        Data Processing, Pandas Library Storage and SQLITE Database:
+        ## Data Processing, Pandas Library Storage and SQLITE Database:
 
 In the data_processing file, i carried out data cleaning and processing tasks to prepare the FIFA 2023 player data for storage in an SQLite database. The data is cleaned, by removing accents, splitting and capitalised names, making the data more suitable for analysis. Once cleaned the data is saved into an SQLite database. 
 
@@ -58,7 +58,7 @@ The ‘to_sql()’ method of the pandas DataFrame is then used to write the clea
 
 
 
-        Data Process 7 Selected  PREMIER LEAGUE (PL) CLUBS DATA:
+        ## Data Process 7 Selected  PREMIER LEAGUE (PL) CLUBS DATA:
 
 In summary, the 7 Premier league (PL) clubs CSV file produced through web scraping for each team is read, cleaned and pre-processed, it is then stored in an SQLite database table, where SQL queries are executed to retrieve player information from both the 7 PL teams datasets and the FIFA player dataset. And finally display player information for both the retrieved and unretrieved players in each of the 7 PL datasets. 
 
