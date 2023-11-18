@@ -4,7 +4,7 @@ I web scraped 7 current Premier league teams and conducted an exploratory data a
 
     Web Scraping 7 Premier league Squads from the Web 
 
-In the premier_league_squad_web_scraping file, I web scraped information about all players in the football squad for each of the same 7 premier league squads 2023/24, that were chosen to carry out an Exploratory Data Analysis (EDA) on using FIFA 2023 player data. Information I web scraped for each club from the official Premier League site included players first name, last name, position, squad number and nationality. This was achieved in the following steps:
+In the data_scraping file, I web scraped information about all players in the football squad for each of the same 7 premier league squads 2023/24, that were chosen to carry out an Exploratory Data Analysis (EDA) on using FIFA 2023 player data. Information I web scraped for each club from the official Premier League site included players first name, last name, position, squad number and nationality. This was achieved in the following steps:
 
 -	I first imported the necessary python libraries including “request” and “BeautifulSoup” for web scraping, “pandas” and "numpy" for data manipulation. 
 
@@ -29,7 +29,7 @@ received a valid response.
 
         Data Processing, Pandas Library Storage and SQLITE Database:
 
-This part of the code is used to perform data cleaning and processing tasks to prepare the FIFA 2023 player data for storage in an SQLite database. The data is cleaned, by removing accents, splitting and capitalised names, making the data more suitable for analysis. Once cleaned the data is saved into an SQLite database. 
+In the data_processing file, i carried out data cleaning and processing tasks to prepare the FIFA 2023 player data for storage in an SQLite database. The data is cleaned, by removing accents, splitting and capitalised names, making the data more suitable for analysis. Once cleaned the data is saved into an SQLite database. 
 
 
 1)	Importing Libraries:
@@ -58,9 +58,9 @@ The ‘to_sql()’ method of the pandas DataFrame is then used to write the clea
 
 
 
-    Loading and Processing Selected 7 PREMIER LEAGUE (PL) CLUBS DATA:
+    Data Process 7 Selected  PREMIER LEAGUE (PL) CLUBS DATA:
 
-In summary, for each of the 7 Premier league (PL) clubs the CSV file produced through web scraping for each team is read, cleaned and pre-processed, it is then stored in an SQLite database table, where SQL queries are executed to retrieve player information from both the 7 PL teams datasets and the FIFA player dataset. And finally display player information for both the retrieved and unretrieved players in each of the 7 PL datasets. 
+In summary, the 7 Premier league (PL) clubs CSV file produced through web scraping for each team is read, cleaned and pre-processed, it is then stored in an SQLite database table, where SQL queries are executed to retrieve player information from both the 7 PL teams datasets and the FIFA player dataset. And finally display player information for both the retrieved and unretrieved players in each of the 7 PL datasets. 
 
 1)	Reading PL Squad CSV File:
 
@@ -108,7 +108,7 @@ Finally the database connection is closed using the ‘conn.close()’ to protec
 
     EDA and Data Visualisation of the SQL Query Results: 
 
-In this part of the code of the EDA, a comprehensive analysis of 7 Premier League teams is carried out against FIFA 2023 player data. This includes player ratings, abilities, positions and other attributes and uses various data visualisation to present findings. 
+In the data_visualisations file, a comprehensive analysis of 7 Premier League teams is carried out against FIFA 2023 player data. This includes player ratings, abilities, positions and other attributes and uses various data visualisation to present findings. 
 
 
 1)	Team Names and Average Ratings Lists:
