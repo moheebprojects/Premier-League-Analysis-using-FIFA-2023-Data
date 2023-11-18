@@ -189,7 +189,7 @@ This section collects data on player values and creates a scatter plot to explor
 Similar to the previous section, this part focuses on player salaries and explores the correlation between salaries and overall ratings for each club.
 
 19)	Treemap and Histogram for Player Nationalities:
-
+http://127.0.0.1:53879/ 
 This part creates a treemap visualization to show the distribution of player nationalities within each team.
 Additionally, it creates a histogram to visualize the distribution of nationalities within each team.
 
