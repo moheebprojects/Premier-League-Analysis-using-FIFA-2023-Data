@@ -129,6 +129,7 @@ These dictionaries are then used to create a Pandas DataFrame (team_ratings_df) 
 
 The Pandas DataFrame is used to plot a grouped bar chart using Matplotlib.
 The chart displays the average team ratings for each club.
+![Uploading average_team_rating.png…]()
 
 5)	Overall Goalkeeper Abilities:
 
