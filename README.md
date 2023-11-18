@@ -58,7 +58,7 @@ The ‘to_sql()’ method of the pandas DataFrame is then used to write the clea
 
 
 
-    Data Process 7 Selected  PREMIER LEAGUE (PL) CLUBS DATA:
+        Data Process 7 Selected  PREMIER LEAGUE (PL) CLUBS DATA:
 
 In summary, the 7 Premier league (PL) clubs CSV file produced through web scraping for each team is read, cleaned and pre-processed, it is then stored in an SQLite database table, where SQL queries are executed to retrieve player information from both the 7 PL teams datasets and the FIFA player dataset. And finally display player information for both the retrieved and unretrieved players in each of the 7 PL datasets. 
 
