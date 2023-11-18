@@ -214,8 +214,7 @@ Similar to the previous section, this part focuses on player salaries and explor
 <img width="1411" alt="player_salary(euro)_player_rating" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/0556fb1b-9fb4-4423-894b-c22400abab10">
 
 
-19)	Treemap and Histogram for Player Nationalities:
-http://127.0.0.1:53879/ 
+19)	Treemap and Histogram for Player Nationalities: 
 This part creates a treemap visualization to show the distribution of player nationalities within each team.
 Additionally, it creates a histogram to visualize the distribution of nationalities within each team.
 
