@@ -41,12 +41,12 @@ def scrape_team_data(team_url, team_name):
 
         # Define the special cases for each team
         special_cases = {
-            "Arsenal": [17],
+            "Arsenal": [16],
             "Manchester City": [1, 13],
             "Liverpool": [1, 25],
-            "Manchester United": [16, 27],
-            "Newcastle United": [25],
-            "Tottenham Hotspur": [24],
+            "Manchester United": [16, 29],
+            "Newcastle United": [27],
+            "Tottenham Hotspur": [36],
         }
 
         # Inside your scraping function, call the above function
