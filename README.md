@@ -90,11 +90,11 @@ a loop is created through the results of the SQL query e.g. ‘arsenal_results, 
 
 6)	Filtering Unretrieved Players:
 
-A set was created for all the 7 PL teams called (e.g. ‘arsenal_retrieved_players’, ‘man_city_retrieved_players’, ‘chelsea_retrieved_players’) to store the tuples of the first name initials, and last names for players retrieved in the SQLite query. 
+The execute_sql_query_for_missing_players function employs a cursor via conn.cursor() to interact with the SQLite database. It executes an SQL query that cross-references each Premier League team's table (e.g., 'arsenal_squad', 'man_city_squad') with the "fifa_player_data" table. The query utilizes a LEFT JOIN operation and focuses on identifying players who are listed in team tables but are missing in the FIFA dataset. This discrepancy is identified based on matching fields like "First_Name_Initial", "Last_Name", "Player_Nationality", and "Club_Name".
 
-I filtered through the 7 PL clubs dataframes (e.g. “arsenal_df”, “newcastle_df” or “man_united_df”) to obtain rows where the players first name initial and last name do not match the retrieved players. This results in an unretrieved players data frame for each club (e.g. ‘arsenal_unretrieved_players_df’, ‘man_city_unretrieved_players_df’, ‘chelsea_unretrieved_players_df’). 
+The function fetches the data and stores it in a list of tuples, representing players missing from the FIFA dataset for each team. It calculates the number of missing players and prints this information. If the list is empty, indicating no missing players, it prints a confirmation message. Otherwise, it iterates through the list, displaying detailed information about each missing player, including their first name, initial, last name, and nationality.
 
-The unretrieved players details including first name initials, last name and player nationality are printed so they can be further investigated. If all players from the 7 PL clubs dataframes (e.g. “arsenal_df”, “newcastle_df” or “man_united_df”) are retrieved the message “All team players retrieved” is printed. 
+This function is critical for ensuring data integrity and completeness in the analysis project. By identifying and reporting discrepancies between the team-specific data and the comprehensive FIFA player dataset, it aids in maintaining the accuracy of player information and enhances the reliability of any subsequent data analysis or visualizations derived from these datasets.
 
 7)	Closing Cursor and Connection:
 
