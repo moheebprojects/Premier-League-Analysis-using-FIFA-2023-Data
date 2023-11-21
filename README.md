@@ -140,8 +140,6 @@ Data for goalkeeping abilities is collected from different sets of team results 
 
 <img width="1200" alt="average_goalkeeping_abilities" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/b935738f-9d1d-4bc8-92b7-928aa8412a30">
 
-<img width="1200" alt="average_goalkeeping_abilities" src="https://github.com/moheebprojects/Premier-League-Analysis-using-FIFA-2023-Data/assets/125134551/a324d93d-5494-4477-aaf9-6c98237f5ee5">
-
 
 9)	Creating a Grouped Bar Chart for Average Player Ratings:
 
