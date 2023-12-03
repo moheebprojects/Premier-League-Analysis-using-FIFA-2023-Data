@@ -1,5 +1,5 @@
 # Premier-League-EDA-using-FIFA-2023-Data
-I web scraped 7 current Premier league teams and conducted an exploratory data analysis (EDA) of the 7 teams against the FIFA 2023 player data. 
+Conducted an Exploratory Data Analysis (EDA) project using FIFA 2023 player data, focusing on player information for seven Premier League clubs in the 2023/24 season.
 
 
 # Web Scraping 7 Premier league Squads from the Web 
