@@ -50,7 +50,7 @@ def clean_and_store_fifa_data(fifa_player_data_path, db_connection):
 
 
 # Example usage
-fifa_player_data_path = "/Users/moheeb/Documents/Personal_Project_ideas/fifa_23_280922.csv"  # Replace with your CSV file path
+fifa_player_data_path = "/Users/moheeb/Documents/Personal_Project_ideas/fifa_23_280922.csv"  
 clean_and_store_fifa_data(fifa_player_data_path, conn)
 
 
