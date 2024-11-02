@@ -10,7 +10,7 @@ from data_scraping import scrape_team_data
 
 # Database connection
 conn = sqlite3.connect(
-    "/Users/moheeb/Documents/Personal_Project_ideas/Premier_league_squads.db"
+    ".../Premier_league_squads.db"
 )
 
 
@@ -50,7 +50,7 @@ def clean_and_store_fifa_data(fifa_player_data_path, db_connection):
 
 
 # Example usage
-fifa_player_data_path = "/Users/moheeb/Documents/Personal_Project_ideas/fifa_23_280922.csv"  
+fifa_player_data_path = ".../fifa_23_280922.csv"  
 clean_and_store_fifa_data(fifa_player_data_path, conn)
 
 
@@ -87,13 +87,13 @@ def process_team_data(team_name, file_path, db_connection):
 
 # Dictionary of teams and their respective file paths
 teams_file_paths = {
-    "Arsenal": "/Users/moheeb/Documents/Personal_Project_ideas/arsenal_squad.csv",
-    "Manchester City": "/Users/moheeb/Documents/Personal_Project_ideas/manchester_city_squad.csv",
-    "Liverpool": "/Users/moheeb/Documents/Personal_Project_ideas/liverpool_squad.csv",
-    "Manchester United": "/Users/moheeb/Documents/Personal_Project_ideas/manchester_united_squad.csv",
-    "Chelsea": "/Users/moheeb/Documents/Personal_Project_ideas/chelsea_squad.csv",
-    "Newcastle United": "/Users/moheeb/Documents/Personal_Project_ideas/newcastle_united_squad.csv",
-    "Tottenham Hotspur": "/Users/moheeb/Documents/Personal_Project_ideas/tottenham_hotspur_squad.csv",
+    "Arsenal": ".../arsenal_squad.csv",
+    "Manchester City": ".../manchester_city_squad.csv",
+    "Liverpool": ".../liverpool_squad.csv",
+    "Manchester United": ".../manchester_united_squad.csv",
+    "Chelsea": ".../chelsea_squad.csv",
+    "Newcastle United": ".../newcastle_united_squad.csv",
+    "Tottenham Hotspur": ".../tottenham_hotspur_squad.csv",
 }
 
 # Process each team's data
