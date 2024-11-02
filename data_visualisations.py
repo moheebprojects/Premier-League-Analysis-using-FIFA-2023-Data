@@ -29,7 +29,7 @@ def create_visualizations(conn):
         "Tottenham Hotspur",
     ]
 
-    ### Calculate the averages###
+    # Calculate the averages###
     average_overall_ratings = [
         np.mean([row[6] for row in team_results])
         for team_results in [
@@ -90,7 +90,7 @@ def create_visualizations(conn):
     plt.tight_layout()
     plt.show()
 
-    ### Calculating overall goalkeepers abilities###
+    # Calculating overall goalkeepers abilities###
 
     # Overall Goalkeeping abilities
 
@@ -173,7 +173,7 @@ def create_visualizations(conn):
     plt.tight_layout()
     plt.show()
 
-    ### Bar Chart Comparing Average Overall Rating for Goalkeeping, Defensive, Midfielding and Striking Overall Rating ###
+    # Bar Chart Comparing Average Overall Rating for Goalkeeping, Defensive, Midfielding and Striking Overall Rating ###
 
     average_goalkeeper_ratings = [
         np.mean([row[6] for row in arsenal_results if row[5] == "Goalkeeper (GK)"]),
@@ -261,7 +261,7 @@ def create_visualizations(conn):
     plt.tight_layout()
     plt.show()
 
-    ### Player Overall Rating Distribution ###
+    # Player Overall Rating Distribution ###
 
     player_overall_rating_distribution = [
         ((row[3], row[2], row[6]) for row in arsenal_results),
@@ -301,7 +301,7 @@ def create_visualizations(conn):
     )
     fig.show()
 
-    # ---------------------------------------------- Distribution Curve  for defensive Overall Rating -------------------------------------------------------
+    # Distribution Curve  for defensive Overall Rating 
 
     defender_overall_rating_distribution = [
         (
@@ -384,7 +384,7 @@ def create_visualizations(conn):
     )
     fig.show()
 
-    # --------------------------------------------- Distribution Curve  for Midfielders Overall Rating --------------------------------------------------------
+    # Distribution Curve  for Midfielders Overall Rating
 
     midfielder_overall_rating_distribution = [
         (
@@ -467,7 +467,7 @@ def create_visualizations(conn):
     )
     fig.show()
 
-    # ------------------------------------------------- Distribution Curve  for Strikers Overall Rating -  --------------------------------------------------------
+    # Distribution Curve  for Strikers Overall Rating 
 
     striker_overall_rating_distribution = [
         (
@@ -550,7 +550,7 @@ def create_visualizations(conn):
     )
     fig.show()
 
-    # -------------------------------------------------------- Comparing Striker  Overall Rating -  --------------------------------------------------------
+    # Comparing Striker  Overall Rating 
 
     # Overall Forward (ST) scoring abilities
     overall_forward_scoring_abilities = {
@@ -629,7 +629,7 @@ def create_visualizations(conn):
     plt.tight_layout()
     plt.show()
 
-    # ----------------------------------------- scatter Graph comparing player Effectiveness Rating and Overall Rating----------------------------------------------
+    # scatter Graph comparing player Effectiveness Rating and Overall Rating
 
     player_effectivenss_rating_results = [
         ((row[3], row[2], row[5], row[6], row[15]) for row in arsenal_results),
@@ -679,7 +679,7 @@ def create_visualizations(conn):
     # Showing the scatter plot
     fig.show()
 
-    # -------------------------------------------- scatter Graph comparing team defensive conciousness and offensive position----------------------------------------
+    # scatter Graph comparing team defensive conciousness and offensive position
 
     player_offensive_defensive_consciousness_results = [
         ((row[3], row[2], row[5], row[13], row[14]) for row in arsenal_results),
@@ -729,7 +729,7 @@ def create_visualizations(conn):
     # Showing the scatter plot
     fig.show()
 
-    # -------------------------------- correlation Chart comparing player value by player rating for each football club -----------------------------------------
+    # correlation Chart comparing player value by player rating for each football club 
 
     # Defining a function to convert player values to numeric
     def convert_player_value(value):
@@ -794,7 +794,7 @@ def create_visualizations(conn):
     # Showing the scatter plot
     fig.show()
 
-    # ----------------------------- correlation chart comparing  player salary to overall rating for each football club --------------------------------------------
+    # correlation chart comparing  player salary to overall rating for each football club 
 
     # Defining a function to convert player salarys to numeric
     def convert_player_salary(salary):
@@ -859,7 +859,7 @@ def create_visualizations(conn):
     # Showing the scatter plot
     fig.show()
 
-    # ------------------------------ treemap and histogram for the number of Player from each country in each team for each team ---------------------------------
+    # treemap and histogram for the number of Player from each country in each team for each team
 
     player_nationality_results = [
         ((row[3], row[4], row[2]) for row in arsenal_results),
