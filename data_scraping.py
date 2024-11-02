@@ -104,6 +104,6 @@ teams = {
 for team_name, url in teams.items():
     team_df = scrape_team_data(url, team_name)
     if team_df is not None:
-        csv_file_path = f"/Users/moheeb/Documents/Personal_Project_ideas/{team_name.replace(' ', '_').lower()}_squad.csv"
+        csv_file_path = f".../{team_name.replace(' ', '_').lower()}_squad.csv"
         team_df.to_csv(csv_file_path, index=False)
         print(f"CSV file '{csv_file_path}' has been created.")
